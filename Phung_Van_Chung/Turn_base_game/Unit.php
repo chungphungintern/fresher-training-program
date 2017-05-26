@@ -2,18 +2,18 @@
 
 class Unit
 {
-    private $name;
-    private $health;
-    private $damage_base;
-    private $defense_base;
+    public $name;
+    public $health;
+    public $damage_base;
+    public $defense_base;
 
-    private $name_weapon;
-    private $damage_weapon;
-    private $critical;
+    public $name_weapon;
+    public $damage_weapon;
+    public $critical;
 
-    private $name_armor;
-    private $defense_armor;
-    private $block;
+    public $name_armor;
+    public $defense_armor;
+    public $block;
 
     public function __construct(array $arr)
     {
