@@ -6,7 +6,7 @@ const SIZE_FILE_PROFILE_ALLOW = 2097152;
 class Student
 {
 	private $id;
-	public $name;
+	private $name;
 	private $age;
 	private $sex;
 	private $fileAttach;
