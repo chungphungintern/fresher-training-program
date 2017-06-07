@@ -56,8 +56,7 @@ class UserController
     }
 }
 
-public
-function editUser()
+public function editUser()
 {
     if (isset($_GET['id'])) {
         $idUser = $_GET['id'];
